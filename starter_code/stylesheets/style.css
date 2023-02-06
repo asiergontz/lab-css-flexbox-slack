@@ -8,3 +8,128 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Roboto:wght@300;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+@media (max-width:767px){
+body{
+    display: flex;
+    flex-direction: column;
+    background: #F3EAE2;
+} 
+
+/* navigation */
+
+nav{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;   
+        background: #540B51;
+        width: 100vw;
+}
+
+#nav_bar{
+    display: flex;
+    align-items: center;
+}
+
+#slack_logo{
+        height: 7vw;
+        width: 25vw;
+        padding-left:
+}
+
+#nav_list{
+    display: flex;
+    visibility: hidden;
+    background-color: #540B51;
+}
+
+#nav_buttons{
+    display: flex;
+}
+
+#nav_buttons ul{
+    display: none;
+}
+
+#search_icon{
+    background: #540B51;
+    border: none;
+    margin-right: 6vw;
+}
+
+#menu_icon{
+    background: #540B51;
+    border: none;
+}
+
+/* header*/
+
+header{
+    background: #540B51;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+header h1{
+    width: 80vw;
+    text-align: center;
+    margin: auto;
+    margin-top: 8vw;
+    margin-bottom: 4vw;
+}
+#yellow_text{
+    color:#ECB12F;
+}
+
+header span{
+    font-size: 4vw;
+    width: 100vw;
+    
+}
+header img{
+    width: 100vw;
+}
+
+#sign_buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#email_button{
+    margin-top: 3vw;
+    font-size: 6vw;
+    padding: 2vw 18vw;
+}
+#google_button{
+    display: flex;
+    align-items: center;
+    width: 85vw;
+    background-color: #4285F4;
+    margin: 3vw 0;
+
+    
+}
+
+#google_button span{
+    font-size: 6vw;
+    padding: 2vw 0;
+    color: white;
+}
+#google_pic{
+    width: 7vw;
+    height: 7vw;
+    margin-left: 3vw ;
+    background-color: #F3EAE2;
+
+}
+}
