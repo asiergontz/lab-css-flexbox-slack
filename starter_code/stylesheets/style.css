@@ -17,7 +17,6 @@ footer links grey: #454245
     font-family: 'Roboto', sans-serif;
 }
 
-@media (max-width:767px){
 body{
     display: flex;
     flex-direction: column;
@@ -32,6 +31,7 @@ nav{
         align-items: center;   
         background: #540B51;
         width: 100vw;
+        height: 15vw;
 }
 
 #nav_bar{
@@ -40,9 +40,9 @@ nav{
 }
 
 #slack_logo{
-        height: 7vw;
-        width: 25vw;
-        padding-left:
+        height: 5vw;
+        width: 21vw;
+        padding-left:  5vw;
 }
 
 #nav_list{
@@ -63,12 +63,24 @@ nav{
     background: #540B51;
     border: none;
     margin-right: 6vw;
+    
+}
+#search_icon img{
+    height: 4vw;
+    width: 4vw;
 }
 
 #menu_icon{
     background: #540B51;
     border: none;
+    padding-right: 5vw;
 }
+
+#menu_icon img{
+        height: 4vw;
+        width: 4vw;
+    }
+
 
 /* header*/
 
@@ -86,6 +98,7 @@ header h1{
     margin: auto;
     margin-top: 8vw;
     margin-bottom: 4vw;
+    font-size: 9vw;
 }
 #yellow_text{
     color:#ECB12F;
@@ -109,6 +122,8 @@ header img{
     margin-top: 3vw;
     font-size: 6vw;
     padding: 2vw 18vw;
+    border-radius: 2px;
+    color: #540B51;
 }
 #google_button{
     display: flex;
@@ -116,20 +131,175 @@ header img{
     width: 85vw;
     background-color: #4285F4;
     margin: 3vw 0;
-
+    border: none;
+    border-radius: 2px;
     
+ 
 }
 
 #google_button span{
-    font-size: 6vw;
+    font-size: 4vw;
     padding: 2vw 0;
     color: white;
 }
 #google_pic{
     width: 7vw;
     height: 7vw;
-    margin-left: 3vw ;
+    margin-left: 1vw ;
+    padding: 1vw;
     background-color: #F3EAE2;
 
 }
+#app_ss{
+    
+}
+
+#app_ss img{
+    /* I dont know...*/
+}
+
+/* trusted companies section*/
+
+.trusted_comps p{
+font-size: 3vw;
+text-align: center;
+padding: 5vw 0;
+font-weight:bold;
+text-transform: uppercase;
+}
+
+.trusted_pics{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.trusted_pics img{
+    height: 30px;
+    padding: 2vw 0;
+}
+
+.strenghts {
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+}
+
+.blue_card{
+    margin: 10vw 0;
+    width: 90vw;
+}
+
+.card_header{
+    margin: 5vw 0 5vw 3vw;
+    font-size: ;
+}
+
+.card_text{
+    margin: 4vw;
+    font-size:3.5vw
+}
+
+.card_link{
+    margin: 7vw 0 5vw 4vw;
+    text-decoration: none;
+    font-size: 3.5vw;
+
+}
+.card_link::after{
+    content: " →";
+}
+
+.green_card{
+    margin: 10vw 0;
+    width: 90vw;
+    display: flex;
+    justify-self: flex-end;
+}
+
+/* MEDIUM SCREEN*/
+
+@media (width > 768px){
+    
+
+#slack_logo{
+    padding: 1vw
+}
+
+#menu_icon{
+    background: #540B51;
+    border: none;
+    padding-right: 1vw;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+}
+header h1{
+    width: 45vw;
+    margin: 0;
+    text-align: left;
+    margin-top: 8vw;
+    margin-bottom: 4vw;
+    font-size: 9vw;
+    padding-left: 4vw;
+    font-size: 75px;
+}
+.header_div > span{
+    font-size: 3vw;
+    width: 45vw;
+    text-align: left;
+    padding-left: 4vw;
+
+}
+
+.header_div{
+    display: flex;
+    flex-direction: column;
+    width: 60vw;
+}
+
+#sign_buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+#email_button{
+    margin-top: 3vw;
+    font-size: 2vw;
+    padding: 2vw 18vw;
+    border-radius: 2px;
+
+}
+#google_button{
+    display: flex;
+    align-items: center;
+    width: 50vw;
+    background-color: #4285F4;
+    /* how do i make the text be in just one line?*/
+ 
+}
+
+#google_button span{
+    font-size: 2vw;
+    padding: 1vw 0;
+    color: white;
+}
+#google_pic{
+    width: 4vw;
+    height: 4vw;
+    margin: 0.5vw ;
+    padding: 0.5vw;
+    background-color: #F3EAE2;
+}
+
+#app_ss{
+    object-fit: contain;
+}
+
+.trusted_comps p{
+    font-size: 2.5vw;
+    }
+
 }
