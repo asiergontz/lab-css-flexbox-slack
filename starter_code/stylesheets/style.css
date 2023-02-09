@@ -32,6 +32,7 @@ nav{
         background: #540B51;
         width: 100vw;
         height: 15vw;
+        overflow: hidden;
 }
 
 #nav_bar{
@@ -151,11 +152,12 @@ header img{
 
 }
 #app_ss{
-    
+    overflow: hidden;
 }
 
 #app_ss img{
-    /* I dont know...*/
+    
+    width: 145%;
 }
 
 /* trusted companies section*/
@@ -214,7 +216,17 @@ text-transform: uppercase;
     margin: 10vw 0;
     width: 90vw;
     display: flex;
-    justify-self: flex-end;
+    con;
+}
+
+.green_card_div{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.yellow_card{
+    margin: 10vw 0;
+    width: 90vw;
 }
 
 /* MEDIUM SCREEN*/
